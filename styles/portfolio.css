@@ -297,10 +297,18 @@ footer .footer-container {
     width: 95%;
 
 }
+.section-heading h2 {
+    font-size: 27px;
+    
+}
 #about,
 #skills,
 #resume {
     padding-top: 60px;
 }
+#skills .skills-container .skill-box{
+    flex-direction: column;
+}
+
 
 }
