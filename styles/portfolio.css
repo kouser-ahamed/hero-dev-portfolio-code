@@ -306,8 +306,33 @@ footer .footer-container {
 #resume {
     padding-top: 60px;
 }
-#skills .skills-container .skill-box{
+#about .about-container{
+    padding: 20px;
+}
+
+#about .about-container .about-info{
+    gap: 40px;
+}
+#skills .skills-container .skill-box, 
+#about .about-container .about-info,
+footer .footer-container,
+#resume .resume-container{
     flex-direction: column;
+}
+.skill-box .skill-card{
+    max-width: 100%;
+}
+#resume .resume-container{
+    margin-top: 60px;
+}
+.resume-card{
+    margin-right: 10px;
+}
+
+
+.footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+
 }
 
 
